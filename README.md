@@ -15,11 +15,3 @@ stow --adopt -nv nvim  # 先测试 symbol links 会如何建立
 
 stow --adopt -v nvim # 建立 symbol links
 ```
-
-```
-
-```
-
-```
-
-```
