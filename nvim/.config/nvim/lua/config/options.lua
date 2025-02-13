@@ -7,6 +7,5 @@ vim.api.nvim_create_autocmd("FileType", {
   pattern = "markdown",
   callback = function()
     vim.opt_local.conceallevel = 0
-    vim.api.nvim_buf_se_option(0, "spell", false)
   end,
 })
